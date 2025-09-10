@@ -1,0 +1,42 @@
+[
+     {
+        "Question":"You drop your ice cream cone on the sidewalk.",
+        "val":"Little"
+    },
+
+     {
+        "Question":"You cannot find your parents at an amusement park.",
+        "val":"Big"
+    }, 
+    
+    {
+        "Question":"You get gum in your hair.",
+        "val":"Big"
+    },
+    
+    {
+        "Question":"Your shoe sole comes off during a school trip.",
+        "val":"Little"
+    },
+
+     {
+        "Question":"You spilled water over your homework.",
+        "val":"Little"
+    },
+    
+    {
+        "Question":"You spilled water over your homework.",
+        "val":"Big"
+    },
+    
+    {
+        "Question":"Your best friend tells you that they cannot come to your birthday party.",
+        "val":"Little"
+    },
+    
+    
+    {
+        "Question":"You hear the fire alarm at school.",
+        "val":"Big"
+    }
+]
