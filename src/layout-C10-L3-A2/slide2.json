@@ -1,0 +1,31 @@
+[
+     {
+        "Question":"You don’t rank 1st in class; you’re always third.",
+        "val":"Little deal",
+        "suggetions":"Class ranking is not a good reason to feel anxious. Grades don’t determine your intellect or abilities. They are only a part of such an evaluation and you will have other occasions to prove your intelligence."
+    },
+
+     {
+        "Question":"You fell while playing basketball and got some minor bruises on your shoulders.",
+        "val":"Little deal",
+        "suggetions":"Sports is all about falling and getting up. Bruises are very common in a game like basketball. You don’t need to feel anxious about it being anything but a bruise."
+    }, 
+    
+    {
+        "Question":"A peer keeps pushing you on a daily basis in school.",
+        "val":"Big deal",
+        "suggetions":"Pushing is not nice. It is considered indecent behavior that can transform into something challenging unless reported to adults on time. You should immediately inform a teacher or an adult about this behavior so it can be prevented."
+    },
+    
+    {
+        "Question":"You’ve been getting headaches every evening because of studying too much.",
+        "val":"Big deal",
+        "suggetions":"Headaches are common but are usually occasional. If you’re getting headaches on a regular basis, you should inform your parents so they can identify the cause for you to get better."
+    },
+
+     {
+        "Question":"The teacher intentionally made you sit next to a student you don’t like as opposed to your friend.",
+        "val":"Little deal",
+        "suggetions":"Teachers have to think about discipline in class. Usually when friends sit together, they tend to talk, perhaps disturbing the decorum of the classroom. You can always talk to your friend at lunch or after school."
+    }
+]

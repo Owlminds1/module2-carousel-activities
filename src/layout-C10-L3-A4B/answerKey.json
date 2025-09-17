@@ -1,0 +1,80 @@
+[
+  {
+    "Question":"You recently lost a basketball game. It was very disappointing because you practiced a lot. Now you don’t feel like playing",
+        "imag":"/C10Images/lost-basketball.png",
+    "id": 1,
+    "sentence": "I can say _____________ because it will make me feel more ________ and _________.",
+    "correct": {
+      "say": "I’ll keep trying",
+      "feel1": "Resilient",
+      "feel2": "Courageous"
+    }
+  },
+
+  {
+    "Question":"You scored poorly in Mathematics. You don’t like the Maths anyway but a poor score is a poor score. It is going to impact the school you can attend later.",
+        "imag":"/C10Images/Math.jpg",
+    "id": 2,
+    "sentence": "I can say _____________ because it will make me feel more ________ and _________.",
+    "correct": {
+      "say": "I will try a different way",
+      "feel1": "Confident",
+      "feel2": "Determined"
+    }
+  },
+
+  {
+
+    "Question":"Your friends make fun of your height. You’re not as tall as the other students. It also affects your participation in sports activities.",
+        "imag":"/C10Images/Height.jpg",
+
+    "id": 3,
+    "sentence": "I can say _____________ because it will make me feel more ________ and _________.",
+    "correct": {
+      "say": "With practise it will get easier",
+      "feel1": "Worthy",
+      "feel2": "Serene"
+    }
+  },
+
+  {
+
+    "Question":"All your friends have gone for a vacation but you don’t get to go because your parents are not able to afford a fancy vacation. It makes you feel lonely and bored.",
+        "imag":"/C10Images/feel-lonely.png",
+    "id": 4,
+    "sentence": "I can say _____________ because it will make me feel more ________ and _________.",
+    "correct": {
+      "say": "What can I learn to get better at this?",
+      "feel1": "Optimistic",
+      "feel2": "Cheerful"
+    }
+  },
+
+
+
+   {
+
+    "Question":"You want to play rugby but you don’t know how. Your friends are all happy to play, but you don’t know where to begin.",
+        "imag":"/C10Images/Rugby.jpg",
+    "id": 5,
+    "sentence": "I can say _____________ because it will make me feel more ________ and _________.",
+    "correct": {
+      "say": "I can learn",
+      "feel1": "Self-assured",
+      "feel2": "Motivated"
+    }
+  },
+
+   {
+
+    "Question":"You would like to learn how to speak a foreign language. But since you’re not very good with languages, you’re not sure if it’s worth a try.",
+        "imag":"/C10Images/Language.jpg",
+    "id": 6,
+    "sentence": "I can say _____________ because it will make me feel more ________ and _________.",
+    "correct": {
+      "say": "With practice it will get easier",
+      "feel1": "Open-minded",
+      "feel2": "Scholarly"
+    }
+  }
+]
