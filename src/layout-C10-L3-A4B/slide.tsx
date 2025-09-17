@@ -47,33 +47,36 @@ const Slide = () => {
     window.scrollTo(0, 0);
   };
 
-  const handleDrop = (e: React.DragEvent, target: keyof AnswerType) => {
-    e.preventDefault();
-    const text = e.dataTransfer.getData("text");
-    const correct = answerKey.find((q) => q.id === activeSlide);
-    if (!correct) return;
+ const handleDrop = (e: React.DragEvent, target: keyof AnswerType) => {
+  e.preventDefault();
+  const text = e.dataTransfer.getData("text");
+  const correct = answerKey.find((q) => q.id === activeSlide);
+  if (!correct) return;
 
-    setUserAnswer((prev) => {
-  const prevAnswers = prev[activeSlide] || { say: "", feel1: "", feel2: "" };
-  const newAnswers = { ...prevAnswers }; // use const
+  setUserAnswer((prev) => {
+    const prevAnswers = prev[activeSlide] || { say: "", feel1: "", feel2: "" };
+    const newAnswers = { ...prevAnswers };
 
-  if (target === "say" && text === correct.correct.say) {
-    newAnswers.say = text;
-    setSayList((prev) => prev.filter((item) => item.text !== text));
-  }
-  if (target === "feel1" && text === correct.correct.feel1) {
-    newAnswers.feel1 = text;
-    setFeelList((prev) => prev.filter((item) => item.text !== text));
-  }
-  if (target === "feel2" && text === correct.correct.feel2) {
-    newAnswers.feel2 = text;
-    setFeelList((prev) => prev.filter((item) => item.text !== text));
-  }
+    // SAY check (exact match only)
+    if (target === "say" && text === correct.correct.say) {
+      newAnswers.say = text;
+      setSayList((prev) => prev.filter((item) => item.text !== text));
+    }
 
-  return { ...prev, [activeSlide]: newAnswers };
-});
+    // FEEL check (interchangeable)
+    if (
+      (target === "feel1" || target === "feel2") &&
+      (text === correct.correct.feel1 || text === correct.correct.feel2) &&
+      !Object.values(newAnswers).includes(text) // prevent duplicate
+    ) {
+      newAnswers[target] = text;
+      setFeelList((prev) => prev.filter((item) => item.text !== text));
+    }
 
-  };
+    return { ...prev, [activeSlide]: newAnswers };
+  });
+};
+
 
   return (
     <div className="min-h-screen bg-[#F8FCFA] flex justify-center items-center gap-5 flex-col p-5">

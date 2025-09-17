@@ -174,7 +174,7 @@ setPlayCorrect( new Audio("/sound/correct.mp3"))
 <div className="col-span-12 w-full flex justify-center items-center flex-col gap-4"> 
                     <textarea className="min-h-[100px] p-2 border border-gray-300 rounded-lg w-[55%] text-center text-black" placeholder="write here..." />
 {
-  !showSuggetion ? <button onClick={()=>setShowSuggetion(true)  }  className="text-white bg-violet-900 px-6 py-1 rounded-lg cursor-pointer font-medium" > Show Suggetion</button>
+  !showSuggetion ? <button onClick={()=>setShowSuggetion(true)  }  className="text-white bg-violet-900 px-6 py-1 rounded-lg cursor-pointer font-medium" > Show Suggestion</button>
 :
 <p className="text-black text-center w-[80%] text-lg">{i.suggetions}</p>
 }
