@@ -1,42 +1,50 @@
 [
      {
         "Question":"You drop your ice cream cone on the sidewalk.",
-        "val":"Little"
+        "val":"Little",
+        "image":"/C10Images/ice-cream-cone.png"
     },
 
      {
         "Question":"You cannot find your parents at an amusement park.",
-        "val":"Big"
+        "val":"Big",
+        "image":"/C10Images/lost-in-park.png"
     }, 
     
     {
         "Question":"You get gum in your hair.",
-        "val":"Big"
+        "val":"Big",
+        "image":"/C10Images/gum-in-hair.png"
     },
     
     {
         "Question":"Your shoe sole comes off during a school trip.",
-        "val":"Little"
+        "val":"Little",
+        "image":"/C10Images/shoe-sole.png"
     },
 
      {
         "Question":"You spilled water over your homework.",
-        "val":"Little"
+        "val":"Little",
+        "image":"/C10Images/homework.png"
     },
     
     {
         "Question":"You forgot your lunch.",
-        "val":"Big"
+        "val":"Big",
+        "image":"/C10Images/lunch.png"
     },
     
     {
         "Question":"Your best friend tells you that they cannot come to your birthday party.",
-        "val":"Little"
+        "val":"Little",
+        "image":"/C10Images/birthday-party.png"
     },
     
     
     {
         "Question":"You hear the fire alarm at school.",
-        "val":"Big"
+        "val":"Big",
+        "image":"/C10Images/fire-alarm-2.png"
     }
 ]

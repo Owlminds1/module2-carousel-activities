@@ -125,7 +125,7 @@ setPlayCorrect( new Audio("/sound/correct.mp3"))
               <SwiperSlide key={index}>
                 <div className="grid grid-cols-12 gap-8 w-full p-3 h-full min-h-[300px] bg-white rounded-lg">
                   <div className="col-span-12 flex justify-center items-center ">
-                    <Image src="/C10Images/Why.jpg" width={300} height={100} alt="C10Images" />
+                    <Image src={i.image} width={300} height={100} alt="C10Images" />
                   </div>
                   
                   <div className="col-span-12   flex justify-center items-center">
@@ -152,7 +152,7 @@ setPlayCorrect( new Audio("/sound/correct.mp3"))
               <SwiperSlide key={index}>
                 <div className="grid grid-cols-12 gap-8 w-full p-3 h-full min-h-[300px] bg-white rounded-lg">
                   <div className="col-span-12 flex justify-center items-center ">
-                    <Image src="/C10Images/Questions.jpg" width={300} height={100} alt="C10Images" />
+                    <Image src={i.image} width={300} height={100} alt="C10Images" />
                   </div>
                   
                   <div className="col-span-12   flex justify-center items-center">
