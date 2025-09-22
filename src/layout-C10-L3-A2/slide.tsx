@@ -125,7 +125,7 @@ setPlayCorrect( new Audio("/sound/correct.mp3"))
               <SwiperSlide key={index}>
                 <div className="grid grid-cols-12 gap-8 w-full p-3 h-full min-h-[300px] bg-white rounded-lg">
                   <div className="col-span-12 flex justify-center items-center ">
-                    <Image src="/C10Images/Why.jpg" width={300} height={100} alt="C10Images" />
+                    <Image src={i.image} width={300} height={100} alt="C10Images" />
                   </div>
                   
                   <div className="col-span-12   flex justify-center items-center">
@@ -152,7 +152,7 @@ setPlayCorrect( new Audio("/sound/correct.mp3"))
               <SwiperSlide key={index}>
                 <div className="grid grid-cols-12 gap-8 w-full p-3 h-full min-h-[300px] bg-white rounded-lg">
                   <div className="col-span-12 flex justify-center items-center ">
-                    <Image src="/C10Images/Questions.jpg" width={300} height={100} alt="C10Images" />
+                    <Image src={i.image} width={300} height={100} alt="C10Images" />
                   </div>
                   
                   <div className="col-span-12   flex justify-center items-center">
@@ -174,7 +174,7 @@ setPlayCorrect( new Audio("/sound/correct.mp3"))
 <div className="col-span-12 w-full flex justify-center items-center flex-col gap-4"> 
                     <textarea className="min-h-[100px] p-2 border border-gray-300 rounded-lg w-[55%] text-center text-black" placeholder="write here..." />
 {
-  !showSuggetion ? <button onClick={()=>setShowSuggetion(true)  }  className="text-white bg-violet-900 px-6 py-1 rounded-lg cursor-pointer font-medium" > Show Suggetion</button>
+  !showSuggetion ? <button onClick={()=>setShowSuggetion(true)  }  className="text-white bg-violet-900 px-6 py-1 rounded-lg cursor-pointer font-medium" > Show Suggestion</button>
 :
 <p className="text-black text-center w-[80%] text-lg">{i.suggetions}</p>
 }
