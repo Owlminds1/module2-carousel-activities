@@ -11,6 +11,7 @@ const Emotins = [
   { name: "Disgust" },
   { name: "Anger" },
   { name: "Joy" },
+  { name: "Anticipation" },
 ];
 
 interface myProps {
@@ -57,7 +58,7 @@ const EmotionBar = ({ item }: myProps) => {
         </div>
       ))}
       {rightAnswer ? (
-        <BRAVOModle open={open} setOpen={setOpen} src="/C13-L1-A2/Bravo.jpg" />
+        <BRAVOModle open={open} setOpen={setOpen} src="/Well_Done.jpg" />
       ) : (
         <KeepTryingModel open={open} setOpen={setOpen} />
       )}
