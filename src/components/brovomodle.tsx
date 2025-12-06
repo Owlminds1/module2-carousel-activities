@@ -21,7 +21,7 @@ const BRAVOModle = ({open,setOpen,src}:myProps) => {
     <Dialog open={open} onOpenChange={setOpen}>
     <DialogContent className="">
       <DialogHeader>
-        <DialogTitle className="text-center text-2xl">BRAVO!</DialogTitle>
+        <DialogTitle className="text-center text-3xl ">BRAVO!</DialogTitle>
         <DialogDescription className="flex  justify-center items-center">
           <Image
             src={src}

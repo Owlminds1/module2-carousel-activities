@@ -10,7 +10,7 @@ const CrouselC13L3A22B = () => {
     <div>
       {isFirstScreen == "strartSlid" && <StartSlid setIsFirstScreen={setIsFirstScreen}/>}
       {isFirstScreen == "slide" && <C13L1A2Slide setIsFirstScreen={setIsFirstScreen}/>}
-      {isFirstScreen == "emotionImage" && <EmotinsImage />}
+      {isFirstScreen == "emotionImage" && <EmotinsImage setIsFirstScreen={setIsFirstScreen} />}
     </div>
   )
 }
