@@ -17,11 +17,11 @@ const Gallary = () => {
       <div className="grid grid-cols-12 gap-[100px]  h-[300px] place-items-center">
         <div className="col-span-4">
           <div
-            onClick={() => handleClick("/C16/home_rule.jpg")}
+            onClick={() => handleClick("/C16/Etiquettes-at-home.png")}
             className="relative w-[300px] h-[240px] bg-[#ffca4a] overflow-hidden rounded-lg shadow-md  shadow-black cursor-pointer hover:scale-105  "
           >
             <Image
-              src="/C16/home_rule.jpg"
+              src="/C16/Etiquettes-at-home.png"
               fill
               className="object-contain"
               alt="gallery"
